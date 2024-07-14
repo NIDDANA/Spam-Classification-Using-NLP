@@ -94,3 +94,90 @@ requirements.txt: List of required packages.
 
 # Results
 The project achieved high accuracy in spam detection using Gradient Boosting as the best model. The model evaluation includes detailed metrics such as confusion matrix and classification report to ensure robust performance.
+
+
+
+# Output
+
+
+Classification Report:
+              precision    recall  f1-score   support
+
+       False       0.98      1.00      0.99       965
+        True       0.99      0.85      0.92       150
+
+    accuracy                           0.98      1115
+   macro avg       0.98      0.93      0.95      1115
+weighted avg       0.98      0.98      0.98      1115
+
+
+Accuracy Score:
+0.979372197309417
+
+============================================================
+
+Results for Support Vector Classifier:
+Confusion Matrix:
+[[962   3]
+ [ 23 127]]
+ 
+
+Classification Report:
+              precision    recall  f1-score   support
+
+       False       0.98      1.00      0.99       965
+        True       0.98      0.85      0.91       150
+
+    accuracy                           0.98      1115
+   macro avg       0.98      0.92      0.95      1115
+weighted avg       0.98      0.98      0.98      1115
+
+
+Accuracy Score:
+0.9766816143497757
+
+============================================================
+
+Results for Random Forest:
+Confusion Matrix:
+[[965   0]
+ [ 33 117]]
+ 
+
+Classification Report:
+              precision    recall  f1-score   support
+
+       False       0.97      1.00      0.98       965
+        True       1.00      0.78      0.88       150
+
+    accuracy                           0.97      1115
+   macro avg       0.98      0.89      0.93      1115
+weighted avg       0.97      0.97      0.97      1115
+
+
+Accuracy Score:
+0.9704035874439462
+
+
+============================================================
+
+Results for Gradient Boosting:
+Confusion Matrix:
+[[964   1]
+ [ 33 117]]
+ 
+
+Classification Report:
+              precision    recall  f1-score   support
+
+       False       0.97      1.00      0.98       965
+        True       0.99      0.78      0.87       150
+
+    accuracy                           0.97      1115
+   macro avg       0.98      0.89      0.93      1115
+weighted avg       0.97      0.97      0.97      1115
+
+
+
+Accuracy Score:
+0.9695067264573991
